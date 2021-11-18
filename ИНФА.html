@@ -1,0 +1,150 @@
+<!--Элемент DOCTYPE -->
+<!DOCTYPE html>
+<!--локализация -->
+<html lang="ru">
+  <head>
+        <!--кодировка -->
+    <meta charset="UTF-8">
+       <!--стили-->
+    <link rel="stylesheet" href="outlines.css">
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" rel="stylesheet">
+  </head>
+   <!-- Стандартная форма полей логина пароля с нестандартным чекблоком -->
+<body>
+	 <header class="menu">
+        <div class="menu-wrap">
+<!--Изображение логотипа  -->
+			 <img src="img/logotip.jpg" class="header-logo" alt="Logo">
+            <div class="sadt">Уникальные предметы ручной работы
+            <p>Наш номер: <a class="phone1" href="tel:+x-xxx-xxx-xx-xx" title="+616">+616</a></p>
+            </div>
+            <input type="checkbox" id="checkbox">
+            <nav>
+                <ul>
+                    	<!--список навигации -->
+                    <li><a class="sad" href="index.html">Заказ</a></li>
+                    <li><a class="sad" href="Товары.html">Товары</a></li>
+                    <li><a class="sad" href="ИНФА.html">О нас</a></li>
+
+                </ul>
+            </nav>
+            <label for="checkbox">
+
+                <i class="fa fa-bars menu-icon"></i>
+            </label>
+        </div>
+
+
+		  </header>
+
+
+<p><br><br></p>
+     <!--класс со стилем для оформления текста -->
+<div><pre class="sah">		            Уникальные вещи
+	                          РУЧНОЙ РАБОТЫ
+	Уникальные вещи помогут не только показать
+свои познания в искустве.
+		         но и дадут повод выйти из дома
+
+	Панк который не как не умрёт.
+	Классика жанра ручной работы с одеждой.
+ Акрил кисточки и вперёд уникальный вид тебе обеспечен.
+	Но так как ты здесь значит руками ты работаешь
+хуже чем головой
+	но для этого ты и здесь.
+	              Цен ты здесь не найдёшь ибо их нет
+    они в твоей голове.
+    не бойся ты не шизофреник
+          просто цену определяет сложность твоего заказа
+    а определиться с ценой и стилем мы поможем)
+
+
+
+</pre></div>
+     <div ><img src="img/Dewyshka.jpg" class="sau" alt="krasivoe"></div>
+<dd>
+   <img src="img/Vladislaw.jpg" class="Vlado" alt="Consyl" width="250" height="250" >
+  <div><pre class="Vlad">Консультант Владик.
+  Быстро а главное доходчиво объяснит почему
+      надо вводить Svv-cod.
+И поможет в выбором товара и его оформлением.
+
+  </pre></div>
+</dd>
+       <!--  Слайдер  -->
+<!--Класс слайдера  -->
+<div class="slider">
+    <!--Слайд номер 1 -->
+  	<div class="item">
+        <img src="img/slide1.jpg" alt="Первый слайд">
+        <div class="slideText"> Любые эскизы  </div>
+    </div>
+    <!--Слайд номер 2 -->
+    <div class="item">
+        <img src="img/slide2.jpg" alt="Второй слайд">
+        <div class="slideText" >Смелые идеи </div>
+    </div>
+    <!--Слайд номер 3 -->
+    <div class="item">
+        <img src="img/slide3.jpg" alt="Третий слайд">
+        <div class="slideText">Воплотим быстро и качество  </div>
+    </div>
+    <!--Класы кнопок на слайдере -->
+
+  	<a class="prev" onclick="minusSlide()">&#10094;</a>
+  	<a class="next" onclick="plusSlide()">&#10095;</a>
+</div>
+<br>
+    <!--класс основа слайдера  -->
+<div class="slider-dots">
+	<span class="slider-dots_item" onclick="currentSlide(1)"></span>
+  	<span class="slider-dots_item" onclick="currentSlide(2)"></span>
+  	<span class="slider-dots_item" onclick="currentSlide(3)"></span>
+</div>
+     <!-- Скрипт от  js -->
+<script src="script.js"></script>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+ <!--класс со стилем для оформления текста -->
+<div class="sadf"><pre>  <!-- Текст с информацией -->
+
+		                  Все товары изготовлены в малых партиях.
+                  И цена договорная хозяин сайта всего лишь посредник.
+                        между сайтом и изготовителями.
+                     по этому он не несёт ответственности за брак и тд.
+
+
+
+                                              ООО^Не отчисляйте пожалуйста^
+
+</pre></div>
+
+  <!-- подвал и его классы -->
+	<footer class="page-footer">
+        <div class="footer-logo">
+            	<!--Логотип в подвале  -->
+			<img src="img/logotip.jpg" class="header-logo">
+		</div>
+        	<!--класс оформления данных в подвале-->
+		<div class="help">
+            	<!--Данные в подвале -->
+			<p id="connection">Связь с нами:</p>
+			<p>Наш номер: <a class="phone1" href="tel:+x-xxx-xxx-xx-xx" title="+616">+616</a></p>
+			<p>Наша почта: <a href="#" class="phone1">vgek.ru</a></p>
+		</div>
+	</footer>
+
+<a href="#" title="Вернуться к началу" class="topbutton sad">^Наверх</a>
+
+</html>
